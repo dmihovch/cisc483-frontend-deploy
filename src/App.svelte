@@ -18,7 +18,7 @@
     let inputsSummaryOpen = false;
     let graphKey = 0;
 
-    const API_ENDPOINT = 'http://localhost:5000/api/recommend';
+    const API_ENDPOINT = 'http://137.184.130.110:5000/api/recommend';
 
     async function handleSearch(displayPayload: SearchPayload, apiPayload: ApiSearchPayload): Promise<void> {
         errorMessage = '';
